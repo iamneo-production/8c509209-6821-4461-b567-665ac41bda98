@@ -1,0 +1,40 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<div class="adminHomeBody">
+<nav id="adminHomeNav" class="navbar navbar-expand-lg " >
+    <a class="navbar-brand" routerLink="/user/homepage">Impressor</a>
+    <button id="homeButton" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+    <li class="nav-item">
+    <a class="nav-link" routerLink="/user/homepage">Home</a>
+    </li>
+    <li class="nav-item">
+    <a id="DashBoardButton" class="nav-link" routerLink="/user/dashboard">Dashboard</a>
+    </li>
+    <li class="nav-item">
+    <a id="myBookingButton" class="nav-link" routerLink="/user/appointment">My Bookings</a>
+    </li>
+    </ul>
+    <ul class="navbar-nav ml-auto">
+    <li class="nav-item">
+    <button id="logout" class="btn btn-primary" routerLink="/logout">Logout</button>
+    </li>
+    </ul>
+    </div>
+    </nav>
+    <div class="grid-container">
+      <div class="grid-item"  *ngFor="let i of items">
+          
+            <img src={{i.serviceCenterImageUrl}}  class="card-img-top" style="width: 18rem;" routerLink="/user/dashboard">
+            <h4>{{i.serviceCenterName}}</h4>
+            <h4>Place: {{i.serviceCenterAddress}}</h4>
+            <h4>Description: {{i.serviceCenterDescription}}</h4>
+          </div>
+    </div>
+      
+      
+    
+    
+      

@@ -1,0 +1,26 @@
+.topnav-right{
+    float: right;   
+}
+.col-md-4
+{
+    text-align: center;
+    margin: 3% 35%;
+    border: 3px solid gray;
+    
+    border-radius: 7%;
+
+}
+.form-group{
+    margin: 10px;
+}
+.addCenter{
+    background-image: url("https://tse1.mm.bing.net/th/id/OIP.3LPni5yi4LSWb0J7kfpo_QAAAA?pid=ImgDet&w=191&h=191&c=7&dpr=1.5");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#addCenterNav{
+    background-color: #9A208C;
+}
+#submitButton{
+    margin:3% 40%;
+}

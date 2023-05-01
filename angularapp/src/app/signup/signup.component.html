@@ -1,0 +1,51 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<div class="image">
+  <img  src="https://www.acquisition-international.com/wp-content/uploads/2022/05/Innovative-Printing.jpg" alt="Not Found" >
+</div>
+
+<div class="container">
+    <div class="row">
+    <div class="col-md-6 mx-auto">
+      <h2 class="text-center mb-4" style="color: black; font-weight: bolder;">Register</h2>
+    <form [formGroup]="registerForm" (ngSubmit)="onSubmit()" class="form">
+    <div class="form-group">
+    <!--<label for="user/admin">User/Admin</label>
+    <input  type="text" class="form-control" formControlName="userrole" ngClass="{'is-invalid':submitted&&registerForm.controls.userrole.errors}" id="admin/username" placeholder="Enter admin/user">-->
+    <label for="useradmin">Enter User/Admin:</label>
+  <select class="form-control" formControlName="userrole" ngClass="{'is-invalid':submitted&&registerForm.controls.userrole.errors}" id="user" name="user" required>
+    <option value="user">User</option>
+    <option value="admin">Admin</option>
+  </select>
+    </div>
+    <div class="form-group">
+      <label for="email">Email address</label>
+      <input  type="email" class="form-control" formControlName="email" id="email" placeholder="Enter email" required>
+      <div *ngIf="email && email.invalid && email.touched " style="color: red;"> please enter valid email</div>
+      </div>
+      <div class="form-group">
+        <label for="username">Username</label>
+        <input type="text" class="form-control" formControlName="username" id="username" placeholder="Enter Username" required>  
+        <div *ngIf="username && username.invalid && username.touched " style="color: red;"> please enter user name</div>
+        </div>
+        <div class="form-group">
+          <label for="mobilenumber">MobileNumber</label>
+          <input type="tel" class="form-control" formControlName="mobilenumber" id="mobileNumber" placeholder="Enter Mobilenumber" required>
+          <div *ngIf="mobilenumber && mobilenumber.invalid && mobilenumber.touched " style="color: red;"> please enter valid phonenumber</div>
+          </div>
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" class="form-control" formControlName="password" id="password" placeholder="Password" required>
+          <div *ngIf="password && password.invalid && password.touched  " style="color: red;"> please enter valid password</div>
+          </div>
+        <!-- <div class="form-group">
+            <label for="password">Confirm Password</label>
+            <input type="password" class="form-control" formControlName="password" id="ConfirmPassword" placeholder="Confirm Password" required>
+        </div> -->
+        <div class="button">
+        <button id="submitButton" type="submit" class="btn btn-primary" [disabled]="registerForm.invalid" >Register </button>
+      </div>
+    <p>Already User? <a id="siginLink" routerLink="/user/login">Login</a></p>
+    </form>
+    </div>
+    </div>
+    </div>

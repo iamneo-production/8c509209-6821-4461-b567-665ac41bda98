@@ -1,0 +1,22 @@
+2023-05-01 09:09:38.4918 DEBUG starting the application
+2023-05-01 09:09:39.0419 WARN No XML encryptor configured. Key {5026599e-4e9b-44c0-8855-82354888f26e} may be persisted to storage in unencrypted form.
+2023-05-01 09:09:44.6081 WARN Failed to determine the https port for redirect.
+2023-05-01 10:28:50.8110 DEBUG starting the application
+2023-05-01 10:30:21.1078 DEBUG starting the application
+2023-05-01 10:30:38.0744 WARN Failed to determine the https port for redirect.
+2023-05-01 10:30:52.5371 INFO viewed
+2023-05-01 13:22:19.4608 DEBUG starting the application
+2023-05-01 13:22:19.5640 ERROR Stopped program because of exception
+2023-05-01 13:23:52.7342 DEBUG starting the application
+2023-05-01 13:23:52.8362 ERROR Stopped program because of exception
+2023-05-01 13:24:49.3540 DEBUG starting the application
+2023-05-01 13:24:49.5381 ERROR Stopped program because of exception
+2023-05-01 13:28:15.3080 DEBUG starting the application
+2023-05-01 13:28:16.4975 WARN No XML encryptor configured. Key {9e33e2c1-19e8-4e95-b4c3-a0da051201ea} may be persisted to storage in unencrypted form.
+2023-05-01 13:28:25.2742 WARN Failed to determine the https port for redirect.
+2023-05-01 13:28:48.4585 ERROR An unhandled exception has occurred while executing the request.
+2023-05-01 13:30:07.9715 DEBUG starting the application
+2023-05-01 13:30:19.5196 WARN Failed to determine the https port for redirect.
+2023-05-01 13:30:30.2344 INFO viewed
+2023-05-01 13:31:22.8643 INFO user created
+2023-05-01 13:32:19.2560 INFO token created
