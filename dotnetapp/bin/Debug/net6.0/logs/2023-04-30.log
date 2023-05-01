@@ -1,0 +1,3 @@
+2023-04-30 17:36:23.7578 DEBUG starting the application
+2023-04-30 17:36:25.3917 WARN No XML encryptor configured. Key {9b05519f-269e-4677-8bc7-c448eaa2cd09} may be persisted to storage in unencrypted form.
+2023-04-30 17:36:30.7071 WARN Failed to determine the https port for redirect.

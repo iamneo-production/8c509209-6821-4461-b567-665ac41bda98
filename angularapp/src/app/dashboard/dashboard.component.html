@@ -1,0 +1,72 @@
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<body id="dashBoardBody" >
+<div id="dashBoardnav">
+<nav class="navbar navbar-expand-lg navbar-light ">
+    <a class="navbar-brand" routerLink="/user/homepage" style="color: #F5C6EC; font-weight: bold;">IMPRESSOR</a>
+    <button id="homeButton" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+    <li class="nav-item">
+    <a class="nav-link" routerLink="/user/homepage" style="color: black;">Home</a>
+    </li>
+    <li class="nav-item">
+    <a id="DashBoardButton" class="nav-link" routerLink="/user/dashboard" style="color: black">Dashboard</a>
+    </li>
+    <li class="nav-item">
+    <a id="myBookingButton" class="nav-link" routerLink="/user/appointment" style="color: black;">My Bookings</a>
+    </li>
+    </ul>
+    <ul class="navbar-nav ml-auto">
+    <li class="nav-item">
+    <a id="login" class="nav-link" routerLink="/logout" style="color: black;">Logout</a>
+    </li>
+    </ul>
+    </div>
+    </nav>
+</div>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<div class="container">
+    <div class="row">
+    <div class="col-md-6 mx-auto">
+    <h1 class="text-center mb-4">Create Booking</h1>
+   <!--- <form [formGroup]="AppointmentForm" (ngUpdate)="onSubmit()">-->
+    <form>
+    <div class="form-group">
+    
+    <h2 class="text-center mb-4">Enter the product details</h2>
+    </div>
+    <div class="form-group">
+
+    <input  type="text" class="form-control" formControlName="Name" id="enterProductName" placeholder="Enter the name of the product" required>
+    </div>
+    <div class="form-group">
+    
+    <input type="text" class="form-control" formControlName="Model no" id="enterModelNo" placeholder="Enter the model no of the product" required>  
+    </div>
+    <div class="form-group">
+        
+        <input type="date" class="form-control" formControlName="Date of purchase" id=" enterDateOfPurchase" placeholder="Enter the date of purchase" required>
+        </div>
+    <div class="form-group">
+        
+        <input type="text" class="form-control" formControlName="Contact number" id="enterContactNumber" placeholder="Enter the contact number" required>
+        </div>
+        <div class="form-group">
+            
+            <input type="text" class="form-control" formControlName="Product Problem" id="enterProblem" placeholder="Enter the Problem of the product" style="width:100%;height:80px"> 
+        </div>
+        <div class="form-group">
+
+          <input type="text" class="form-control" formControlName="Available Slot" id="Available Slot" placeholder="Available Slot 09:00am to 10:30pm"  style="width:60%;height:80px;">
+          <button id="bookButton" type="submit" class="btn btn-primary" style=" width: 20%; margin:3% 40% ;" >Book </button>
+      </div>
+    
+    </form>
+    </div>
+    </div>
+    </div>
+  </body>
