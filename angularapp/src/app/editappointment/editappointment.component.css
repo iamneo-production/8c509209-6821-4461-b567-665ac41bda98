@@ -1,0 +1,43 @@
+.container {
+    margin-top: 50px;
+    }
+    
+    h2 {
+    font-weight: 600;
+    }
+    
+    form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    form label {
+        
+    font-weight: 500;
+    }
+    
+    form .form-group {
+    margin-bottom: 20px;
+    }
+    .editAppointmentBody{
+        background-image: url("https://tse1.mm.bing.net/th/id/OIP.3LPni5yi4LSWb0J7kfpo_QAAAA?pid=ImgDet&w=191&h=191&c=7&dpr=1.5");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        padding:2px 2px 200px 2px; 
+    }
+    #editAppointmentNav{
+        background-color: #9A208C;
+    }
+    .container{
+        
+        font-family: "Times New Roman", Times, serif;
+        
+        }
+        .navbar-nav{
+            font-family: "Times New Roman", Times, serif;
+            }
+    .form1{
+        border-radius: 10%;
+    }
