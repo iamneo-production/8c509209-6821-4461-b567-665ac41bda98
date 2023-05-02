@@ -1,0 +1,75 @@
+.topnav-right{
+    float: right;
+}
+.right
+{
+    text-align: center;
+    float: right;
+    border: 3px solid gray;
+    border-radius: 7%;
+    margin: 3%;
+    
+
+}
+.form-group{
+    margin: 10px;
+}
+
+.container{
+    margin: 3% 20%;
+    float: left;
+    
+    
+}
+
+.left{
+    border: 3px solid black;
+    float: left;
+    margin: 3% 10%;
+    border-radius: 10%;
+
+}
+.centerProfileBody{
+    background-image: url("https://tse1.mm.bing.net/th/id/OIP.3LPni5yi4LSWb0J7kfpo_QAAAA?pid=ImgDet&w=191&h=191&c=7&dpr=1.5");
+    background-repeat: no-repeat;
+    background-size:100%;
+    padding:2px 2px 200px 2px;
+}
+#centerprofileNav{
+    background-color: #9A208C;
+}
+:host:hover {
+
+    transform: scale(1.03);
+    color: blueviolet;
+}
+img {
+
+    cursor: pointer;
+    color: #9A208C;
+
+    transition: transform 100ms ease-in;
+    
+
+}
+img:hover {
+
+    transform: scale(1.05);
+    color: blue;
+
+}
+a i {
+    transition: all 0.3s linear;
+}
+
+a:hover i {
+    transform: scale(1.5);
+}
+
+.delete:hover {
+    color: red;
+}
+.edit:hover{
+    color: green;
+    
+}
